@@ -1,7 +1,7 @@
 // Creates a single instance in AWS with Relevant tags
 
 provider "aws" {
-  region  = "ap-southeast-2" //Sydney
+  region = "ap-southeast-2" //Sydney
 }
 
 resource "aws_vpc" "terraform2" {

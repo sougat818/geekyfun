@@ -2,7 +2,6 @@
 
 provider "aws" {
   region  = "ap-southeast-2" //Sydney
-  profile = "sougata"
 }
 
 resource "aws_vpc" "terraform2" {
